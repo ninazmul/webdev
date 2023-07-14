@@ -237,6 +237,9 @@ footer{
     }
     .about-info-c{
         size-adjust: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     }
     .resume-c{
@@ -254,5 +257,34 @@ footer{
         padding: 10px;
         margin: 10px;
         width: 1fr;
+    }
+    .banner{
+        flex-direction: column;
+        width: 1fr;
+        padding: 0px;
+    }
+    nav{
+        padding: 0px;
+        margin: 0px;
+        width: 1fr;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .pr{
+        width: 100%;
+    }
+    .intro{
+        padding: 10px;
+    }
+    .banner-c{
+        padding-left: 10px;
+    }
+    .btn-c{
+        gap: 20px;
+        justify-content: center;
+        /* align-items: center; */
+        /* width: 100%; */
+        flex-direction: row;
+        display: flex;
     }
 }
