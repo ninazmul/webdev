@@ -269,6 +269,7 @@ footer{
         width: 1fr;
         flex-direction: column;
         justify-content: space-between;
+        padding-left: 10px;
     }
     .pr{
         width: 100%;
