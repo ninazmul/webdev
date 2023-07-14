@@ -1,0 +1,258 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.red-dot {
+    color: #FD6E0Aed;
+}
+h3{
+    color: #181818;
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+*{
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+nav > ul{
+    display: flex;
+    pos
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.btn{
+    color: var(--white-color, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    width: 150px;
+    height: 45px;
+    /* flex-shrink: 0; */
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+}
+.headerclass{
+    background-color: wheat;
+    background-image: url(/images/header_bg.png), url('/images/developer.png');
+    background-size: 800px, 100px;
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    /* margin: auto, 50px 50px; */
+}
+.banner{
+    text-align: left;
+    align-items: center;
+    display: flex;
+    padding: 30px 30px 0px 150px
+    
+    
+    
+    
+}
+.pr{
+    width: 500px;
+    position: bottom right;
+}
+.btn2{
+    color: var(--white-color, #FD6E0A);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    width: 150px;
+    height: 45px;
+    /* flex-shrink: 0; */
+    border-radius: 5px;
+    /* background: #FD6E0A; */
+    border: #FD6E0A solid 1px;
+}
+.banner-greet{
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700px;
+    /* margin: 5px */
+}
+.banner-c{
+    max-width: 500px;
+}
+.about{
+    padding: 100px;
+    border-radius: 10px;
+    background: wheat;
+    border: #FD6E0A solid;
+    margin: 130px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.section-title{
+    margin-bottom: 20px;
+    text-align: center;
+    /* margin-top: 150px; */
+}
+.about-info-c{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-info{
+    text-align: center;
+}
+.wid{
+    text-align: center;
+    margin: 130px;
+    padding: 100px;
+    border-radius: 10px;
+    border: #FD6E0A solid;
+    background: wheat;
+}
+.section-title2{
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.skill-c{
+    display: flex;
+    justify-content: space-between;
+}
+.skill{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: #FD6E0A solid;
+    border-radius: 10px;
+    background: wheat;
+}
+.h3-title{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.skill-des{
+    margin-top: 10px;
+}
+main{
+    
+}
+.resume-col-title{
+    color: black;
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+/* display: flex; */
+}
+.resume-c{
+    display: flex;
+    /* justify-content: top; */
+    align-items: top;
+    margin: 10px;
+    padding: 150px;
+    
+    
+}
+.mar{
+    margin-top: 150px;;
+}
+.resume-col{
+/* display: flex; */
+margin: 20px;
+/* width: 400px; */
+}
+.resume-i-t{
+    font-size: 25px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+    color: black;
+}
+.resume-i-i, .resume-i-d{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-c hr{
+    margin: 30px;
+}
+.resume-i-i{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 0px;
+}
+footer{
+    display: flex;
+    padding: 100px;
+    align-items: center;
+}
+
+/* responsive media  */
+@media screen and (max-width: 576px) {
+    .skill-c{
+        flex-direction: column;
+        width: 1 fr;
+    }
+    .wid{
+        flex-direction: column;
+        width: 1fr;
+        padding: 10px;
+        /* padding: none; */
+        margin: 10px;
+    }
+    .about{
+        flex-direction: column;
+        width: 1fr;
+        padding: 10px;
+        /* padding: none; */
+        margin: 10px;
+    }
+    .about-info-c{
+        size-adjust: auto;
+
+    }
+    .resume-c{
+        flex-direction: column;
+        /* margin: 10px; */
+        /* width: 1fr; */
+        padding: 5px;
+    }
+    .mar{
+        flex-direction: column;
+        margin: 5px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+        width: 1fr;
+    }
+}
